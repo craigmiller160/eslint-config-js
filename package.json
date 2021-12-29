@@ -1,8 +1,14 @@
 {
   "name": "@craigmiller160/eslint-config-js",
   "version": "1.0.0-beta",
-  "main": "index.js",
-  "license": "MIT",
+  "main": ".eslintrc.js",
+  "author": "craigmiller160",
+  "publishConfig": {
+    "registry": "https://craigmiller160.ddns.net:30003/repository/npm-private/"
+  },
+  "files": [
+    ".eslintrc.js"
+  ],
   "dependencies": {
     "eslint": "^8.5.0"
   }
