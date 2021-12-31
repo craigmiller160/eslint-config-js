@@ -2,6 +2,9 @@
   "name": "@craigmiller160/eslint-config-js",
   "version": "1.0.0-beta",
   "main": ".eslintrc.js",
+  "bin": {
+    "craig-lint": "./bin/craig-lint.js"
+  },
   "author": "craigmiller160",
   "publishConfig": {
     "registry": "https://craigmiller160.ddns.net:30003/repository/npm-private/"
@@ -13,6 +16,7 @@
     ".eslintrc.js"
   ],
   "dependencies": {
+    "cross-spawn": "^7.0.3",
     "eslint": "^8.5.0"
   }
 }
