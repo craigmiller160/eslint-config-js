@@ -16,8 +16,4 @@ module.exports = {
 
 ## Running ESLint
 
-The following command is recommended to setup in your `package.json` to run ESLint:
-
-```
-eslint . --fix --max-warnings=0
-```
+The NPM command `craig-lint` is provided by this library to run eslint with all necessary configuration.
