@@ -1,6 +1,6 @@
 {
   "name": "@craigmiller160/eslint-config-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": ".eslintrc.js",
   "bin": {
     "craig-lint": "./bin/craig-lint.js"
