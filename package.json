@@ -1,6 +1,6 @@
 {
   "name": "@craigmiller160/eslint-config-js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": ".eslintrc.js",
   "bin": {
     "craig-lint": "./bin/craig-lint.js"
@@ -18,6 +18,6 @@
   ],
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "eslint": "^8.34.0"
+    "eslint": "^8.42.0"
   }
 }
