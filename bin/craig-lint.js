@@ -2,7 +2,7 @@
 
 const spawn = require('cross-spawn');
 
-const result = spawn.sync('eslint', ['{src/**/**.{js,jsx,ts,tsx},test/**/**.{js,jsx,ts,tsx}}', '--fix', '--max-warnings=0'], {
+const result = spawn.sync('eslint', ['{src,test,cypress}/**/*.{ts,tsx,js,jsx}', '--fix', '--max-warnings=0'], {
     stdio: 'inherit'
 });
 
