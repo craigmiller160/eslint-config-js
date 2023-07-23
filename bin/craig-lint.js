@@ -2,7 +2,12 @@
 
 const spawn = require('cross-spawn');
 
-const result = spawn.sync('eslint', ['{src/**/**.{js,jsx,ts,tsx},test/**/**.{js,jsx,ts,tsx}}', '--fix', '--max-warnings=0'], {
+let path = '{src,test,cypress}/**/*.{ts,tsx,js,jsx}';
+if (process.argv.length > 2) {
+    path = process.argv[2];
+}
+
+const result = spawn.sync('eslint', ['--fix', '--max-warnings=0', path], {
     stdio: 'inherit'
 });
 
